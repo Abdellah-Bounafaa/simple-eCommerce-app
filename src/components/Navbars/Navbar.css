@@ -1,0 +1,18 @@
+:root {
+  --primary: #dadde2;
+  --secondary: #889fa5;
+  --third: #628281;
+  --fourth: #d3fbd8;
+}
+* {
+  font-size: 16px;
+  color: var(--secondary);
+  font-weight: bold;
+}
+.links Link {
+  text-decoration: none;
+}
+.navbar {
+  background-color: #ffffff;
+  padding: 10px;
+}

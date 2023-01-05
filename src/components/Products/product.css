@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  color: black;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  height: fit-content;
+  /* 
+  max-width: fit-content;
+  max-height: fit-content; */
+}
+.card-title,
+.title,
+b {
+  color: black;
+  font-weight: bold;
+}
+.row {
+  height: 400px;
+  text-align: left;
+}
+.image {
+  width: 300px;
+  border: 7px;
+  height: 300px;
+}
+input {
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.clear {
+  padding: 8px;
+  font-weight: bold;
+}

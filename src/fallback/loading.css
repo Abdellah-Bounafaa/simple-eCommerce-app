@@ -1,0 +1,41 @@
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+}
+.text {
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  animation: text 2s ease-in infinite;
+}
+.ring {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  animation: ring 2s linear infinite;
+}
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #e65c00;
+  }
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 1px 5px 2px red;
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px aqua;
+  }
+}
+@keyframes text {
+  50% {
+    color: transparent;
+  }
+}
